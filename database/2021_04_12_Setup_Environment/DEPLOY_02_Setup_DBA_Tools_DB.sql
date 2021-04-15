@@ -1,0 +1,9 @@
+USE [master]
+GO
+
+IF DB_ID('DbaTools') IS NOT NULL
+	DROP DATABASE [DbaTools]
+GO
+
+CREATE DATABASE [DbaTools]
+GO
